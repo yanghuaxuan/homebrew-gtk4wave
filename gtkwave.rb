@@ -5,6 +5,7 @@ class Gtkwave < Formula
   head "https://github.com/gtkwave/gtkwave.git", branch: "master"
 
   depends_on "gtk4"
+  depends_on "gtk+3"
   depends_on "desktop-file-utils" => :build # for update-desktop-database
   depends_on "shared-mime-info" => :build
   depends_on "gobject-introspection" => :build

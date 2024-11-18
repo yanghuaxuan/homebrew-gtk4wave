@@ -8,7 +8,7 @@ class Gtkwave < Formula
   depends_on "desktop-file-utils" => :build # for update-desktop-database
   depends_on "shared-mime-info" => :build
   depends_on "gobject-introspection" => :build
-   depends_on "gtk-mac-integration" => :build
+# depends_on "gtk-mac-integration" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build

@@ -6,6 +6,7 @@ class Gtkwave < Formula
 
   depends_on "gtk4"
   depends_on "gtk+3"
+  depends_on "json-glib"
   depends_on "desktop-file-utils" => :build # for update-desktop-database
   depends_on "shared-mime-info" => :build
   depends_on "gobject-introspection" => :build
@@ -13,7 +14,6 @@ class Gtkwave < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
-  depends_on "json-glib" => :build
 
   def install
     ENV["DESTDIR"] = "/"
